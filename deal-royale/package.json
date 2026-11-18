@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test:engine": "tsx scripts/simulate.ts"
+    "test:engine": "tsx scripts/simulate.ts",
+    "start": "vite"
   },
   "dependencies": {
     "framer-motion": "^14.14.0",
